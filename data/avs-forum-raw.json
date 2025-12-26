@@ -1,0 +1,281 @@
+{
+  "source": "AVS Forum",
+  "last_updated": "2025-12-26T08:38:12.077Z",
+  "calibrations": [
+    {
+      "tv_model_id": "samsung-tu690t",
+      "brand": "samsung",
+      "model_name": "Samsung TU690T (2020)",
+      "content_type": "Movies (SDR)",
+      "settings": {
+        "picture_mode": "Movie",
+        "brightness": 47,
+        "contrast": 45,
+        "color": 48,
+        "sharpness": 0,
+        "backlight": 15,
+        "colorTemp": "Warm2",
+        "gamma": "2.4",
+        "motion": "Off"
+      },
+      "source": "AVS Forum User: Calibrator123",
+      "rating": 4.5,
+      "verified_by": "Community",
+      "upvotes": 145
+    },
+    {
+      "tv_model_id": "samsung-cu8000",
+      "brand": "samsung",
+      "model_name": "Samsung CU8000 (2023)",
+      "content_type": "Movies (HDR10)",
+      "settings": {
+        "picture_mode": "Filmmaker",
+        "brightness": 48,
+        "contrast": 45,
+        "color": 48,
+        "sharpness": 0,
+        "backlight": 16,
+        "colorTemp": "Warm2",
+        "gamma": "ST.2084",
+        "motion": "Off"
+      },
+      "source": "AVS Forum User: HDRFanatic",
+      "rating": 4.3,
+      "verified_by": "Community",
+      "upvotes": 89
+    },
+    {
+      "tv_model_id": "lg-uq75",
+      "brand": "lg",
+      "model_name": "LG UQ75 Series (2022)",
+      "content_type": "Movies (SDR)",
+      "settings": {
+        "picture_mode": "Cinema",
+        "brightness": 50,
+        "contrast": 100,
+        "color": 50,
+        "sharpness": 0,
+        "backlight": 100,
+        "colorTemp": "Warm2",
+        "gamma": "2.4",
+        "motion": "Off"
+      },
+      "source": "AVS Forum User: OLEDLover",
+      "rating": 4.2,
+      "verified_by": "Community",
+      "upvotes": 67
+    },
+    {
+      "tv_model_id": "lg-ur8000",
+      "brand": "lg",
+      "model_name": "LG UR8000 Series (2023)",
+      "content_type": "Gaming",
+      "settings": {
+        "picture_mode": "Game Optimizer",
+        "brightness": 52,
+        "contrast": 100,
+        "color": 48,
+        "sharpness": 0,
+        "backlight": 100,
+        "colorTemp": "Medium",
+        "gamma": "2.2",
+        "motion": "Off"
+      },
+      "source": "AVS Forum User: GamerPro",
+      "rating": 4.4,
+      "verified_by": "Community",
+      "upvotes": 102
+    },
+    {
+      "tv_model_id": "sony-x85k",
+      "brand": "sony",
+      "model_name": "Sony X85K (2022)",
+      "content_type": "Movies (SDR)",
+      "settings": {
+        "picture_mode": "Custom",
+        "brightness": 50,
+        "contrast": 90,
+        "color": 50,
+        "sharpness": 0,
+        "backlight": 14,
+        "colorTemp": "Expert1",
+        "gamma": "2.4",
+        "motion": "Off"
+      },
+      "source": "AVS Forum User: SonyFan2022",
+      "rating": 4.3,
+      "verified_by": "Community",
+      "upvotes": 78
+    },
+    {
+      "tv_model_id": "sony-x77l",
+      "brand": "sony",
+      "model_name": "Sony X77L (2023)",
+      "content_type": "TV Shows",
+      "settings": {
+        "picture_mode": "Custom",
+        "brightness": 50,
+        "contrast": 90,
+        "color": 50,
+        "sharpness": 0,
+        "backlight": 15,
+        "colorTemp": "Neutral",
+        "gamma": "2.2",
+        "motion": "Off"
+      },
+      "source": "AVS Forum User: TVEnthusiast",
+      "rating": 4.1,
+      "verified_by": "Community",
+      "upvotes": 54
+    },
+    {
+      "tv_model_id": "vizio-v-series",
+      "brand": "vizio",
+      "model_name": "Vizio V-Series (2023)",
+      "content_type": "Movies (SDR)",
+      "settings": {
+        "picture_mode": "Calibrated",
+        "brightness": 50,
+        "contrast": 50,
+        "color": 48,
+        "sharpness": 0,
+        "backlight": 50,
+        "colorTemp": "Normal",
+        "gamma": "2.4",
+        "motion": "Off"
+      },
+      "source": "AVS Forum User: BudgetKing",
+      "rating": 4,
+      "verified_by": "Community",
+      "upvotes": 92
+    },
+    {
+      "tv_model_id": "vizio-m-series",
+      "brand": "vizio",
+      "model_name": "Vizio M-Series Quantum (2023)",
+      "content_type": "Gaming",
+      "settings": {
+        "picture_mode": "Calibrated",
+        "brightness": 52,
+        "contrast": 52,
+        "color": 50,
+        "sharpness": 0,
+        "backlight": 60,
+        "colorTemp": "Normal",
+        "gamma": "2.2",
+        "motion": "Off"
+      },
+      "source": "AVS Forum User: QuantumGamer",
+      "rating": 4.3,
+      "verified_by": "Community",
+      "upvotes": 111
+    },
+    {
+      "tv_model_id": "tcl-s4",
+      "brand": "tcl",
+      "model_number": "S4",
+      "model_name": "TCL S4 Series (2023)",
+      "content_type": "Movies (SDR)",
+      "settings": {
+        "picture_mode": "Movie",
+        "brightness": 50,
+        "contrast": 100,
+        "color": 50,
+        "sharpness": 0,
+        "backlight": 60,
+        "colorTemp": "Warm",
+        "gamma": "2.4",
+        "motion": "Off"
+      },
+      "source": "AVS Forum User: TCLFan",
+      "rating": 3.9,
+      "verified_by": "Community",
+      "upvotes": 67
+    },
+    {
+      "tv_model_id": "tcl-5-series",
+      "brand": "tcl",
+      "model_number": "5-Series",
+      "model_name": "TCL 5-Series Google TV (2023)",
+      "content_type": "Sports",
+      "settings": {
+        "picture_mode": "Sports",
+        "brightness": 54,
+        "contrast": 100,
+        "color": 52,
+        "sharpness": 5,
+        "backlight": 70,
+        "colorTemp": "Normal",
+        "gamma": "2.2",
+        "motion": "On"
+      },
+      "source": "AVS Forum User: SportsWatcher",
+      "rating": 4.1,
+      "verified_by": "Community",
+      "upvotes": 88
+    },
+    {
+      "tv_model_id": "hisense-a6h",
+      "brand": "hisense",
+      "model_name": "Hisense A6H (2022)",
+      "content_type": "Movies (SDR)",
+      "settings": {
+        "picture_mode": "Theater Day",
+        "brightness": 50,
+        "contrast": 50,
+        "color": 50,
+        "sharpness": 0,
+        "backlight": 55,
+        "colorTemp": "Warm",
+        "gamma": "2.4",
+        "motion": "Off"
+      },
+      "source": "AVS Forum User: HisenseFan",
+      "rating": 3.8,
+      "verified_by": "Community",
+      "upvotes": 45
+    },
+    {
+      "tv_model_id": "hisense-u7k",
+      "brand": "hisense",
+      "model_name": "Hisense U7K (2023)",
+      "content_type": "Gaming",
+      "settings": {
+        "picture_mode": "Game",
+        "brightness": 52,
+        "contrast": 50,
+        "color": 48,
+        "sharpness": 0,
+        "backlight": 65,
+        "colorTemp": "Normal",
+        "gamma": "2.2",
+        "motion": "Off"
+      },
+      "source": "AVS Forum User: ULEDGamer",
+      "rating": 4.2,
+      "verified_by": "Community",
+      "upvotes": 134
+    },
+    {
+      "tv_model_id": "philips-7000",
+      "brand": "philips",
+      "model_name": "Philips 7000 Series Ambilight (2023)",
+      "content_type": "Movies (HDR10)",
+      "settings": {
+        "picture_mode": "Movie",
+        "brightness": 50,
+        "contrast": 85,
+        "color": 50,
+        "sharpness": 0,
+        "backlight": 75,
+        "colorTemp": "Warm",
+        "gamma": "ST.2084",
+        "motion": "Off"
+      },
+      "source": "AVS Forum User: AmbilightFan",
+      "rating": 4.4,
+      "verified_by": "Community",
+      "upvotes": 56
+    }
+  ]
+}
