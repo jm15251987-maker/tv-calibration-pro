@@ -293,15 +293,15 @@ function validateDatabase(database) {
 
 // Run generator if executed directly
 if (require.main === module) {
-  generateDatabase()
-    .then(database => {
-      validateDatabase(database);
-      process.exit(0);
-    })
-    .catch(error => {
-      console.error('Fatal error:', error);
-      process.exit(1);
-    });
+  try {
+    const database = generateDatabase();
+    validateDatabase(database);
+    console.log('✅ All done!');
+    process.exit(0);
+  } catch (error) {
+    console.error('Fatal error:', error);
+    process.exit(1);
+  }
 }
 
 module.exports = { generateDatabase, validateDatabase };
