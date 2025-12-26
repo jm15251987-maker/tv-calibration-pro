@@ -1,0 +1,75 @@
+{
+  "name": "TV Calibration Pro",
+  "short_name": "TV Cal Pro",
+  "description": "Professional TV picture quality calibration for all TV brands and models",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#667eea",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "categories": ["entertainment", "utilities", "lifestyle"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%236366f1'/><text x='50' y='65' font-size='60' text-anchor='middle' fill='white' font-family='Arial'>TV</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%236366f1'/><text x='50' y='65' font-size='60' text-anchor='middle' fill='white' font-family='Arial'>TV</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 375 812'><rect width='375' height='812' fill='%23f3f4f6'/><text x='187.5' y='100' font-size='24' text-anchor='middle' fill='%236366f1' font-family='Arial' font-weight='bold'>TV Calibration Pro</text><text x='187.5' y='400' font-size='16' text-anchor='middle' fill='%23666' font-family='Arial'>Professional Picture Quality</text></svg>",
+      "sizes": "375x812",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add TV",
+      "short_name": "Add TV",
+      "description": "Add a new TV to your collection",
+      "url": "/#mytvs",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%236366f1'/><text x='50' y='65' font-size='60' text-anchor='middle' fill='white' font-family='Arial'>+</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Calibrate",
+      "short_name": "Calibrate",
+      "description": "Start TV calibration",
+      "url": "/#calibrate",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%236366f1'/><text x='50' y='65' font-size='40' text-anchor='middle' fill='white' font-family='Arial'>⚙</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Test Patterns",
+      "short_name": "Patterns",
+      "description": "View calibration test patterns",
+      "url": "/#home",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%236366f1'/><text x='50' y='65' font-size='40' text-anchor='middle' fill='white' font-family='Arial'>🎨</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

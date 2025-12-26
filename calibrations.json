@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2024-12-25T00:00:00.000Z",
+  "sources": ["Initial Setup"],
+  "tv_models": [],
+  "calibration_settings": [],
+  "statistics": {
+    "total_models": 0,
+    "total_settings": 0,
+    "models_by_brand": {},
+    "settings_by_content_type": {},
+    "coverage_percentage": 0
+  },
+  "_readme": "This file will be automatically populated by GitHub Actions. Run 'npm run update:all' locally or wait for the daily automated update."
+}
