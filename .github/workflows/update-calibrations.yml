@@ -1,0 +1,128 @@
+name: Update TV Calibration Database
+
+on:
+  # Run daily at 2 AM UTC
+  schedule:
+    - cron: '0 2 * * *'
+  
+  # Allow manual trigger from GitHub UI
+  workflow_dispatch:
+  
+  # Run on push to main (for testing)
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
+
+jobs:
+  update-calibrations:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: |
+          npm install
+          echo "✅ Dependencies installed"
+      
+      - name: Scrape RTINGS data
+        run: |
+          echo "🔍 Scraping RTINGS.com for TV calibration data..."
+          node scripts/scrape-rtings.js
+          echo "✅ RTINGS data scraped"
+        continue-on-error: true
+      
+      - name: Scrape AVS Forum data
+        run: |
+          echo "🔍 Scraping AVS Forum for community calibrations..."
+          node scripts/scrape-avs-forum.js
+          echo "✅ AVS Forum data scraped"
+        continue-on-error: true
+      
+      - name: Generate calibration database
+        run: |
+          echo "📊 Generating unified calibration database..."
+          node scripts/generate-database.js
+          echo "✅ Database generated"
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [ -n "$(git status --porcelain data/calibrations.json)" ]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "📝 Changes detected in calibration database"
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes detected"
+          fi
+      
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config user.name "TV Calibration Bot"
+          git config user.email "actions@github.com"
+          
+          # Get statistics
+          TOTAL_MODELS=$(node -e "const data = require('./data/calibrations.json'); console.log(data.tv_models.length)")
+          TOTAL_SETTINGS=$(node -e "const data = require('./data/calibrations.json'); console.log(data.calibration_settings.length)")
+          
+          git add data/calibrations.json data/rtings-raw.json data/avs-forum-raw.json
+          git commit -m "🤖 Auto-update calibrations: $(date +'%Y-%m-%d %H:%M UTC')
+
+          📊 Database Statistics:
+          - TV Models: ${TOTAL_MODELS}
+          - Calibration Presets: ${TOTAL_SETTINGS}
+          - Last Updated: $(date -u +'%Y-%m-%d %H:%M:%S UTC')
+          
+          Updated by GitHub Actions workflow"
+          
+          git push
+          echo "✅ Changes committed and pushed"
+      
+      - name: Generate summary
+        if: always()
+        run: |
+          echo "## 📺 TV Calibration Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f "data/calibrations.json" ]; then
+            TOTAL_MODELS=$(node -e "const data = require('./data/calibrations.json'); console.log(data.tv_models.length)")
+            TOTAL_SETTINGS=$(node -e "const data = require('./data/calibrations.json'); console.log(data.calibration_settings.length)")
+            LAST_UPDATE=$(node -e "const data = require('./data/calibrations.json'); console.log(data.last_updated)")
+            
+            echo "### ✅ Update Successful" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total TV Models**: ${TOTAL_MODELS}" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total Calibration Presets**: ${TOTAL_SETTINGS}" >> $GITHUB_STEP_SUMMARY
+            echo "- **Last Updated**: ${LAST_UPDATE}" >> $GITHUB_STEP_SUMMARY
+            echo "- **Changes Detected**: ${{ steps.check_changes.outputs.changes }}" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "### ⚠️ Update Failed" >> $GITHUB_STEP_SUMMARY
+            echo "Database file was not generated. Check logs above." >> $GITHUB_STEP_SUMMARY
+          fi
+      
+      - name: Create issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '🚨 Calibration Update Failed - ' + new Date().toISOString().split('T')[0],
+              body: '## Automated Update Failed\n\nThe scheduled calibration database update has failed.\n\n**Workflow Run**: ' + context.serverUrl + '/' + context.repo.owner + '/' + context.repo.repo + '/actions/runs/' + context.runId + '\n\n**Date**: ' + new Date().toUTCString() + '\n\nPlease check the workflow logs for details.',
+              labels: ['automated', 'bug', 'calibration-update']
+            })
