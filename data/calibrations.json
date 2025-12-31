@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2025-12-30T03:26:38.349Z",
+  "last_updated": "2025-12-31T03:26:01.195Z",
   "sources": [
     "RTINGS",
     "AVS Forum"
@@ -243,7 +243,7 @@
       "motion_settings": "Off",
       "source": "AVS Forum User: HisenseFan",
       "rating": 3.8,
-      "verified_date": "2025-12-30T03:26:38.349Z"
+      "verified_date": "2025-12-31T03:26:01.196Z"
     },
     {
       "id": "avs-hisense-u7k-gaming",
@@ -260,7 +260,7 @@
       "motion_settings": "Off",
       "source": "AVS Forum User: ULEDGamer",
       "rating": 4.2,
-      "verified_date": "2025-12-30T03:26:38.349Z"
+      "verified_date": "2025-12-31T03:26:01.196Z"
     },
     {
       "id": "rtings-hisense-u8k-gaming",
@@ -277,7 +277,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.2,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-hisense-u8k-movies_dolby",
@@ -294,7 +294,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.2,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-hisense-u8k-movies_hdr10",
@@ -311,7 +311,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.2,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-hisense-u8k-movies_sdr",
@@ -328,7 +328,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.2,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-hisense-u8k-sports",
@@ -345,7 +345,7 @@
       "motion": "Standard",
       "source": "RTINGS",
       "rating": 8.2,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-hisense-u8k-tv_shows",
@@ -362,7 +362,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.2,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-lg-c3-oled-gaming",
@@ -379,7 +379,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.7,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-lg-c3-oled-movies_dolby",
@@ -396,7 +396,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.7,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-lg-c3-oled-movies_hdr10",
@@ -413,7 +413,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.7,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-lg-c3-oled-movies_sdr",
@@ -430,7 +430,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.7,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-lg-c3-oled-sports",
@@ -447,7 +447,7 @@
       "motion": "Low",
       "source": "RTINGS",
       "rating": 8.7,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-lg-c3-oled-tv_shows",
@@ -464,7 +464,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.7,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-lg-g3-oled-gaming",
@@ -481,7 +481,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.9,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-lg-g3-oled-movies_dolby",
@@ -498,7 +498,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.9,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-lg-g3-oled-movies_hdr10",
@@ -515,7 +515,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.9,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-lg-g3-oled-movies_sdr",
@@ -532,7 +532,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.9,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-lg-g3-oled-sports",
@@ -549,7 +549,7 @@
       "motion": "Low",
       "source": "RTINGS",
       "rating": 8.9,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-lg-g3-oled-tv_shows",
@@ -566,7 +566,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.9,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "avs-lg-uq75-movies-(sdr)",
@@ -583,7 +583,7 @@
       "motion_settings": "Off",
       "source": "AVS Forum User: OLEDLover",
       "rating": 4.2,
-      "verified_date": "2025-12-30T03:26:38.349Z"
+      "verified_date": "2025-12-31T03:26:01.196Z"
     },
     {
       "id": "avs-lg-ur8000-gaming",
@@ -600,7 +600,7 @@
       "motion_settings": "Off",
       "source": "AVS Forum User: GamerPro",
       "rating": 4.4,
-      "verified_date": "2025-12-30T03:26:38.349Z"
+      "verified_date": "2025-12-31T03:26:01.196Z"
     },
     {
       "id": "avs-philips-7000-movies-(hdr10)",
@@ -617,7 +617,7 @@
       "motion_settings": "Off",
       "source": "AVS Forum User: AmbilightFan",
       "rating": 4.4,
-      "verified_date": "2025-12-30T03:26:38.349Z"
+      "verified_date": "2025-12-31T03:26:01.196Z"
     },
     {
       "id": "avs-samsung-cu8000-movies-(hdr10)",
@@ -634,7 +634,7 @@
       "motion_settings": "Off",
       "source": "AVS Forum User: HDRFanatic",
       "rating": 4.3,
-      "verified_date": "2025-12-30T03:26:38.349Z"
+      "verified_date": "2025-12-31T03:26:01.196Z"
     },
     {
       "id": "rtings-samsung-q80c-gaming",
@@ -651,7 +651,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 7.8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-q80c-movies_dolby",
@@ -668,7 +668,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 7.8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-q80c-movies_hdr10",
@@ -685,7 +685,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 7.8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-q80c-movies_sdr",
@@ -702,7 +702,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 7.8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-q80c-sports",
@@ -719,7 +719,7 @@
       "motion": "Auto",
       "source": "RTINGS",
       "rating": 7.8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-q80c-tv_shows",
@@ -736,7 +736,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 7.8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-qn90c-gaming",
@@ -753,7 +753,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.5,
-      "verified_date": "2025-12-30T03:26:38.206Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-qn90c-movies_dolby",
@@ -770,7 +770,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.5,
-      "verified_date": "2025-12-30T03:26:38.206Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-qn90c-movies_hdr10",
@@ -787,7 +787,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.5,
-      "verified_date": "2025-12-30T03:26:38.206Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-qn90c-movies_sdr",
@@ -804,7 +804,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.5,
-      "verified_date": "2025-12-30T03:26:38.206Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-qn90c-sports",
@@ -821,7 +821,7 @@
       "motion": "Auto",
       "source": "RTINGS",
       "rating": 8.5,
-      "verified_date": "2025-12-30T03:26:38.206Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-qn90c-tv_shows",
@@ -838,7 +838,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.5,
-      "verified_date": "2025-12-30T03:26:38.206Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-s95c-gaming",
@@ -855,7 +855,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.8,
-      "verified_date": "2025-12-30T03:26:38.206Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-s95c-movies_dolby",
@@ -872,7 +872,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.8,
-      "verified_date": "2025-12-30T03:26:38.206Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-s95c-movies_hdr10",
@@ -889,7 +889,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.8,
-      "verified_date": "2025-12-30T03:26:38.206Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-s95c-movies_sdr",
@@ -906,7 +906,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.8,
-      "verified_date": "2025-12-30T03:26:38.206Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-s95c-sports",
@@ -923,7 +923,7 @@
       "motion": "Auto",
       "source": "RTINGS",
       "rating": 8.8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-samsung-s95c-tv_shows",
@@ -940,7 +940,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "avs-samsung-tu690t-movies-(sdr)",
@@ -957,7 +957,7 @@
       "motion_settings": "Off",
       "source": "AVS Forum User: Calibrator123",
       "rating": 4.5,
-      "verified_date": "2025-12-30T03:26:38.349Z"
+      "verified_date": "2025-12-31T03:26:01.196Z"
     },
     {
       "id": "rtings-sony-a95k-gaming",
@@ -974,7 +974,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-sony-a95k-movies_dolby",
@@ -991,7 +991,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-sony-a95k-movies_hdr10",
@@ -1008,7 +1008,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-sony-a95k-movies_sdr",
@@ -1025,7 +1025,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-sony-a95k-sports",
@@ -1042,7 +1042,7 @@
       "motion": "Standard",
       "source": "RTINGS",
       "rating": 8.8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-sony-a95k-tv_shows",
@@ -1059,7 +1059,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "avs-sony-x77l-tv-shows",
@@ -1076,7 +1076,7 @@
       "motion_settings": "Off",
       "source": "AVS Forum User: TVEnthusiast",
       "rating": 4.1,
-      "verified_date": "2025-12-30T03:26:38.349Z"
+      "verified_date": "2025-12-31T03:26:01.196Z"
     },
     {
       "id": "avs-sony-x85k-movies-(sdr)",
@@ -1093,7 +1093,7 @@
       "motion_settings": "Off",
       "source": "AVS Forum User: SonyFan2022",
       "rating": 4.3,
-      "verified_date": "2025-12-30T03:26:38.349Z"
+      "verified_date": "2025-12-31T03:26:01.196Z"
     },
     {
       "id": "rtings-sony-x90l-gaming",
@@ -1110,7 +1110,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-sony-x90l-movies_dolby",
@@ -1127,7 +1127,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-sony-x90l-movies_hdr10",
@@ -1144,7 +1144,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-sony-x90l-movies_sdr",
@@ -1161,7 +1161,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-sony-x90l-sports",
@@ -1178,7 +1178,7 @@
       "motion": "Standard",
       "source": "RTINGS",
       "rating": 8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-sony-x90l-tv_shows",
@@ -1195,7 +1195,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "avs-tcl-5-series-sports",
@@ -1212,7 +1212,7 @@
       "motion_settings": "On",
       "source": "AVS Forum User: SportsWatcher",
       "rating": 4.1,
-      "verified_date": "2025-12-30T03:26:38.349Z"
+      "verified_date": "2025-12-31T03:26:01.196Z"
     },
     {
       "id": "rtings-tcl-6-series-r655-gaming",
@@ -1229,7 +1229,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.1,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-tcl-6-series-r655-movies_dolby",
@@ -1246,7 +1246,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.1,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-tcl-6-series-r655-movies_hdr10",
@@ -1263,7 +1263,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.1,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-tcl-6-series-r655-movies_sdr",
@@ -1280,7 +1280,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.1,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-tcl-6-series-r655-sports",
@@ -1297,7 +1297,7 @@
       "motion": "On",
       "source": "RTINGS",
       "rating": 8.1,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "rtings-tcl-6-series-r655-tv_shows",
@@ -1314,7 +1314,7 @@
       "motion": "Off",
       "source": "RTINGS",
       "rating": 8.1,
-      "verified_date": "2025-12-30T03:26:38.207Z"
+      "verified_date": "2025-12-31T03:26:01.060Z"
     },
     {
       "id": "avs-tcl-s4-movies-(sdr)",
@@ -1331,7 +1331,7 @@
       "motion_settings": "Off",
       "source": "AVS Forum User: TCLFan",
       "rating": 3.9,
-      "verified_date": "2025-12-30T03:26:38.349Z"
+      "verified_date": "2025-12-31T03:26:01.196Z"
     },
     {
       "id": "avs-vizio-m-series-gaming",
@@ -1348,7 +1348,7 @@
       "motion_settings": "Off",
       "source": "AVS Forum User: QuantumGamer",
       "rating": 4.3,
-      "verified_date": "2025-12-30T03:26:38.349Z"
+      "verified_date": "2025-12-31T03:26:01.196Z"
     },
     {
       "id": "avs-vizio-v-series-movies-(sdr)",
@@ -1365,7 +1365,7 @@
       "motion_settings": "Off",
       "source": "AVS Forum User: BudgetKing",
       "rating": 4,
-      "verified_date": "2025-12-30T03:26:38.349Z"
+      "verified_date": "2025-12-31T03:26:01.196Z"
     }
   ],
   "statistics": {
